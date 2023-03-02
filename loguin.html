@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loguin</title>
+    <!-- abaixo usa link do site 
+    "https://cdnjs.com/libraries/font-awesome" para linkar fontes dos icons com a versão abaixo
+> e tambem "https://fontawesome.com/v6/icons" site dos icones > confirmar versão ultilizada, tem que ser igual -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/imagens/∆.ico" />
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Entrar</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Usuario</label>
+                </div>
+                <div class="input-group">
+                    <!-- abaixo o tipo "type" muda de texto para senha-->
+                    <input type="password" required>
+                    <label for=""> Senha</label>
+                </div>
+                <div class="remember">
+                    <!-- abaixo usa-se label com input checkbox para aparecer aquela caixinha de marcar-->
+                    <label> <input type="checkbox" class="custom"> Remember-me</label>
+                </div>
+                <!-- abaixo buttton usa type "submit" para confirmar os dados ao clicar no botão-->
+                <button type="submit">Entrar</button>
+                <div class="signUp-link">
+                    <p> Não tem uma Conta OverAnimes?
+                    <a href="./criarconta.html"signUpBtn-link">Criar Uma</a>
+                    </p>
+                </div>
+                <div class="social-platform">
+                    <p>Ou entre com </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
